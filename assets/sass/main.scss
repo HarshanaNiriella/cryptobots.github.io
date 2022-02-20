@@ -768,7 +768,7 @@ $size-header-pad: 4em;
 
 		li {
 			line-height: 1.75em;
-			margin: 1.5em 0 0 0;
+			margin: 1.5em 0 0;
 			padding-left: 2.25em;
 			position: relative;
 
@@ -911,14 +911,14 @@ $size-header-pad: 4em;
 		}
 
 		td {
-			padding: 0.75em 0.75em;
+			padding: 0.75em;
 		}
 
 		th {
 			color: _palette(fg-bold);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0.75em 0.75em;
 			text-align: left;
 		}
 
@@ -1182,7 +1182,7 @@ $size-header-pad: 4em;
 	@include keyframes('spin') {
 		0% { @include vendor('transform', 'rotate(0deg)'); }
 		100% { @include vendor('transform', 'rotate(360deg)'); }
-	};
+	}
 
 	.poptrox-popup {
 		@include vendor('box-sizing', 'content-box');
